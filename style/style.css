@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+/* html{
+    overflow: hidden;    
+    height: 100%;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    
+    /* background-image: url(../pic/Background.jpg);
+    background-attachment: fixed;  */
+    font-family: 'Marck Script', cursive;
+    /* transform: translateZ(-1000); */
+    /* 
+     */
+}
+
+
+
+
+
+
+.parallax{
+    display: block;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    width: 100%;
+    background-image: url(../pic/Background.jpg);  
+    background-attachment: fixed;
+     
+}
+
+/* .parallax::before{
+    content: '';
+    display: block;
+    z-index: -1;
+    transform-origin: center;
+    min-height: 100vh;
+    
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: cover;
+    transform: translateZ(-2px) scale();
+} */
+
+
+.title {
+    
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    
+}
+
+.hmenu {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    min-width: 800px;
+    z-index: 100;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+li {
+    font-family: 'Marck Script', cursive;
+    margin: 10px 20px 10px 20px;
+}
+
+a:hover {
+    color:red;
+}
+
+.drakonia, .team, .partner, .study, .tales{
+    border-radius: 10px;
+    width: 100%;
+    min-width: 800px;
+    background-color: #fff;
+    margin: 100px 0px 20px 0px;
+    padding: 0;
+    box-shadow: 0.4em 0.8em 5px rgba(122,122,122,0.8);
+    /* transform: translateZ(0); */
+}
+
+.drakonia>p, .about_tales>p, .team_text, .partner_text, .study_text, .tales_text{
+    width: 90%;
+    margin: auto;
+    
+}
+
+.drakonia>span{
+    font-size: 35px;
+}
+
+.video{
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.about_tales{
+    margin-top: 40px;
+    width: 100%;
+    background-color: #fff;
+
+}
+
+footer{
+    width: 100%;
+    background-color:BLACK;
+    color: white;
+    display: flex;
+}
+
+.contacts>ul{
+    margin: 0;
+}
+
+.about_us{
+    margin: 10px;
+}
+
+@media screen and (max-width:800px){
+
+    
+.menu{
+    display: none;
+
+}
+
+
+
+.drakonia, .team, .partner, .study, .tales{
+    min-width: 400px;
+}
+    
+}
