@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-size: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+header{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+}
+
+.hmenu {
+    background-color: white;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    
+    
+}
+
+.menu {
+    width: 70%;
+    background-color: white;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.icon{
+    width: 29%;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.icon>li{
+    margin: 30px 10px 0px 0px;
+
+}
+
+.menu>li {
+    /* font-family: 'Marck Script', cursive; */
+    margin: 20px 10px 10px 10px;
+}
+
+a:hover {
+    color:red;
+}
+
+.parallax-window{
+    width: 100%;
+    min-height: 800px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.tizer{
+    width: 80%;
+}
+
+.content_wraper{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 70%;
+    min-width: 400px;
+    
+}
+.draconia>span{
+    font-size: 80px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    /* background-image: url(../pic/Drac_back.jpg);
+    width: 700px;
+    height: 100px;
+    background-repeat: no-repeat;
+    opacity: 0.3; */
+    
+}
+
+.draconia>img{
+    margin-bottom: 40px;
+}
+
+.draconia, .team{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.team>span{
+    font-size: 80px;
+}
+
+.team>img{
+    margin-top: 60px;
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    color: white;
+    
+}
+
+.parallax-footer{
+    width: 100%;
+    min-height: 600px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.about_us{
+    display: flex;
+    width: 100%;
+    background-color: black;
+}

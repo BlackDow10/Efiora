@@ -10,9 +10,9 @@ body {
     padding: 0;
     
     
-    /* background-image: url(../pic/Background.jpg);
-    background-attachment: fixed;  */
-    font-family: 'Marck Script', cursive;
+    background-image: url(../pic/background1.jpg);
+    background-attachment: fixed;
+        /* font-family: 'Marck Script', cursive; */
     /* transform: translateZ(-1000); */
     /* 
      */
@@ -24,54 +24,33 @@ body {
 
 
 .parallax{
+    margin-top: 105px;
     display: block;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    perspective: 1px;
-    transform-style: preserve-3d;
-    width: 100%;
-    background-image: url(../pic/Background.jpg);  
-    background-attachment: fixed;
+    
+    
      
 }
 
-/* .parallax::before{
-    content: '';
-    display: block;
-    z-index: -1;
-    transform-origin: center;
-    min-height: 100vh;
-    
-    background-attachment: scroll;
-    background-repeat: repeat;
-    background-size: cover;
-    transform: translateZ(-2px) scale();
-} */
 
-
-.title {
-    
-    padding: 5px 10px 5px 10px;
-    font-size: 20px;
-    background-color: black;
-    color: rgb(255, 255, 255);
-    
-}
 
 .hmenu {
+    
+    
     background-color: white;
-    position: fixed;
+    
     top: 0;
     left: 0;
-    height: 80px;
+    height: 100px;
     width: 100%;
-    display: flex;
-    justify-content: flex-start;
+    display: block;
+    
+    
     min-width: 800px;
     z-index: 100;
 }
 
 .menu {
+    background-color: white;
     display: flex;
     list-style: none;
     flex-wrap: wrap;
@@ -80,8 +59,8 @@ body {
 }
 
 li {
-    font-family: 'Marck Script', cursive;
-    margin: 10px 20px 10px 20px;
+    /* font-family: 'Marck Script', cursive; */
+    margin: 20px 10px 10px 10px;
 }
 
 a:hover {
@@ -89,7 +68,7 @@ a:hover {
 }
 
 .drakonia, .team, .partner, .study, .tales{
-    border-radius: 10px;
+    text-align: center;
     width: 100%;
     min-width: 800px;
     background-color: #fff;
@@ -106,7 +85,9 @@ a:hover {
 }
 
 .drakonia>span{
+    
     font-size: 35px;
+    margin-bottom: 40px;
 }
 
 .video{
@@ -137,7 +118,7 @@ footer{
     margin: 10px;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:890px){
 
     
 .menu{
